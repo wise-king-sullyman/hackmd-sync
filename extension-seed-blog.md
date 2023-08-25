@@ -17,13 +17,13 @@ While this flexibility is required for PatternFly to have the broad applicabilit
 
 When teams contribute their larger "batteries included" interface systems upstream to the PatternFly Extensions ecosystem, we're able to better leverage the power of an open source development model to accelerate development.
 
-### Why we've used it
+### How we've used it
 
 On the PatternFly team we used the PatternFly Extension Seed to quickly extract five packages from our main React monorepo and stand them up in their own repos. It also enabled us to launch one new extension and begin development of two more.
 
-These efforts had largely been considered for quite a while previously, but were never prioritized as the work needed to stand them up and integrate them with our documentation site was deemed too time consuming.
+These efforts had largely been considered for quite a while, but were never prioritized as the work needed to stand them up and integrate them with our documentation site was deemed too time consuming.
 
-Once we developed the PatternFly Extension Seed we were able to accomplish what would've likely taken months worth of dev time and accomplish it in a matter of days.
+Once we developed the PatternFly Extension Seed we were able to accomplish what would've taken months worth of dev time and accomplish it in a matter of days.
 
 ## How do you use it?
 
@@ -52,9 +52,9 @@ Once we developed the PatternFly Extension Seed we were able to accomplish what 
     ```
 1. Enter your information when prompted:
    - NPM scope should start with an @ symbol, i.e. ``@patternfly`
-   - extension name should be in sentence case but without any punctuation, i.e. `Patternfly extension seed`
-   - extension description should also be sentence case, i.e. `Enable accellerated development of extensions to the PatternFly eceosystem`
-   - repo URL should be the plain URL of the repo not URL used to clone, i.e. `https://github.com/patternfly/patternfly-extension-seed`
+   - Extension name should be in sentence case but without any punctuation, i.e. `Patternfly extension seed`
+   - Extension description should also be sentence case, i.e. `Enable accellerated development of extensions to the PatternFly eceosystem`
+   - Repo URL should be the plain URL of the repo not URL used to clone, i.e. `https://github.com/patternfly/patternfly-extension-seed`
 1. Install the dependencies:
     ```bash
         yarn install
@@ -139,4 +139,4 @@ If everything passes CI congratulations! You just published your first PatternFl
 
 ### How do you actually get your extension on the PatternFly site?
 
-If you've developed something that you think would be a great addition to the PatternFly Extensions ecosystem, or have an idea for an extension, please create [a discussion post on the PatternFly GitHub](https://github.com/orgs/patternfly/discussions). If we agree that it's a great fit we'll help guide you through the process of landing our extension's documentation on our site!
+If you've developed something that you think would be a great addition to the PatternFly Extensions ecosystem, or have an idea for an extension, please create [a discussion post on the PatternFly GitHub](https://github.com/orgs/patternfly/discussions). If we agree that it's a great fit we'll help guide you through the process of landing your extension's documentation on our site!
